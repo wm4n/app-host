@@ -11,6 +11,7 @@
 ## For Travis users
 
 1. Turn on `Allow files from this repository to be used in build on other repository` for submodule projects on Travis to make submodule code available
+   ![](travis_submodule.png)
 
 2. add following to .travis.yml to make sure latest code from the branch is used
    ```yml
